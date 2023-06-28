@@ -1,0 +1,589 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "main": "./script/aez_bundle_main.js",
+  "assets": {
+    "fit": {
+      "type": "audio",
+      "path": "files/7532987ba2a85e1075f5",
+      "systemId": "sound",
+      "duration": 183,
+      "virtualPath": "audio/fit"
+    },
+    "fit2": {
+      "type": "audio",
+      "path": "files/cf488fea6256f0640207",
+      "systemId": "sound",
+      "duration": 154,
+      "virtualPath": "audio/fit2"
+    },
+    "voice_25": {
+      "type": "audio",
+      "path": "files/4192a0bd4e444a32efa3",
+      "systemId": "sound",
+      "duration": 1718,
+      "virtualPath": "audio/voice_25"
+    },
+    "voice_50": {
+      "type": "audio",
+      "path": "files/c7f6f0571775e21580bd",
+      "systemId": "sound",
+      "duration": 1238,
+      "virtualPath": "audio/voice_50"
+    },
+    "voice_75": {
+      "type": "audio",
+      "path": "files/be39fb42eb63aa3af3e1",
+      "systemId": "sound",
+      "duration": 1099,
+      "virtualPath": "audio/voice_75"
+    },
+    "voice_8888": {
+      "type": "audio",
+      "path": "files/e994fdd0b6c0f7412879",
+      "systemId": "sound",
+      "duration": 1408,
+      "virtualPath": "audio/voice_8888"
+    },
+    "voice_bottom": {
+      "type": "audio",
+      "path": "files/8d83d26ee43190305f13",
+      "systemId": "sound",
+      "duration": 2166,
+      "virtualPath": "audio/voice_bottom"
+    },
+    "voice_left": {
+      "type": "audio",
+      "path": "files/65535c6914a33c13348c",
+      "systemId": "sound",
+      "duration": 2272,
+      "virtualPath": "audio/voice_left"
+    },
+    "voice_outer": {
+      "type": "audio",
+      "path": "files/0f451a75025c5ad65e40",
+      "systemId": "sound",
+      "duration": 1856,
+      "virtualPath": "audio/voice_outer"
+    },
+    "voice_right": {
+      "type": "audio",
+      "path": "files/5293f460852a8644ea0e",
+      "systemId": "sound",
+      "duration": 2208,
+      "virtualPath": "audio/voice_right"
+    },
+    "voice_top": {
+      "type": "audio",
+      "path": "files/700d26abee073c684164",
+      "systemId": "sound",
+      "duration": 2176,
+      "virtualPath": "audio/voice_top"
+    },
+    "crown_0": {
+      "type": "image",
+      "path": "files/5a03b7fdf64e4cb2f803.png",
+      "width": 90,
+      "height": 60,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/crown_0.png"
+    },
+    "crown_1": {
+      "type": "image",
+      "path": "files/52aa2a356969da05ac78.png",
+      "width": 60,
+      "height": 40,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/crown_1.png"
+    },
+    "crown_2": {
+      "type": "image",
+      "path": "files/13e63d9e28fbd4010848.png",
+      "width": 60,
+      "height": 40,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/crown_2.png"
+    },
+    "crown_3": {
+      "type": "image",
+      "path": "files/c4473a1b1d8315575fcd.png",
+      "width": 60,
+      "height": 40,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/crown_3.png"
+    },
+    "infoBtn": {
+      "type": "image",
+      "path": "files/bdd131be65363341e1c5.png",
+      "width": 96,
+      "height": 96,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/infoBtn.png"
+    },
+    "joinBtn": {
+      "type": "image",
+      "path": "files/ff05418007d426c6ef1c.png",
+      "width": 192,
+      "height": 108,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/joinBtn.png"
+    },
+    "left": {
+      "type": "image",
+      "path": "files/2b90a3693ba487cce32e.png",
+      "width": 192,
+      "height": 108,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/left.png"
+    },
+    "playBtn": {
+      "type": "image",
+      "path": "files/318e3a91bb516d041592.png",
+      "width": 192,
+      "height": 108,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/playBtn.png"
+    },
+    "previewBtn": {
+      "type": "image",
+      "path": "files/18fc0a3d171f3ea042e4.png",
+      "width": 100,
+      "height": 100,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/previewBtn.png"
+    },
+    "result": {
+      "type": "image",
+      "path": "files/555f0dd163279bc7dfc0.jpg",
+      "width": 870,
+      "height": 690,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/result.jpg"
+    },
+    "resultBtn": {
+      "type": "image",
+      "path": "files/b6678ec3f9d363baad9d.png",
+      "width": 100,
+      "height": 100,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/resultBtn.png"
+    },
+    "right": {
+      "type": "image",
+      "path": "files/df6b353e2a24394a3a16.png",
+      "width": 192,
+      "height": 108,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/right.png"
+    },
+    "sanka_nin": {
+      "type": "image",
+      "path": "files/a15f6b57aef38f335524.png",
+      "width": 380,
+      "height": 80,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/sanka_nin.png"
+    },
+    "select_E": {
+      "type": "image",
+      "path": "files/e70c729619a67cdc1085.png",
+      "width": 380,
+      "height": 80,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/select_E.png"
+    },
+    "select_H": {
+      "type": "image",
+      "path": "files/c94e2466f18b5b6bf391.png",
+      "width": 380,
+      "height": 80,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/select_H.png"
+    },
+    "select_N": {
+      "type": "image",
+      "path": "files/01dcaae1dc5d83a004cb.png",
+      "width": 380,
+      "height": 80,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/select_N.png"
+    },
+    "setting": {
+      "type": "image",
+      "path": "files/c2f2ff7b76dde1c2ff00.png",
+      "width": 96,
+      "height": 96,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/setting.png"
+    },
+    "titleBtn": {
+      "type": "image",
+      "path": "files/5d36463540f4f6eb88ac.png",
+      "width": 291,
+      "height": 108,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/titleBtn.png"
+    },
+    "title_back": {
+      "type": "image",
+      "path": "files/d9afd91c990237e5f382.png",
+      "width": 380,
+      "height": 80,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/title_back.png"
+    },
+    "visibleBtn": {
+      "type": "image",
+      "path": "files/260099ffddf560635baf.png",
+      "width": 96,
+      "height": 96,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/visibleBtn.png"
+    },
+    "zoomIn": {
+      "type": "image",
+      "path": "files/8f3e332fdf435939f3de.png",
+      "width": 100,
+      "height": 100,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/zoomIn.png"
+    },
+    "zoomOut": {
+      "type": "image",
+      "path": "files/65c9739d0fff418e9b6e.png",
+      "width": 100,
+      "height": 100,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/zoomOut.png"
+    },
+    "assets/!/00.png": {
+      "type": "image",
+      "path": "files/f17d04027ff2582da8aa.png",
+      "width": 300,
+      "height": 300,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/!/00.png"
+    },
+    "assets/!/01.png": {
+      "type": "image",
+      "path": "files/a86239aa6c2cabc706bf.png",
+      "width": 300,
+      "height": 300,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/!/01.png"
+    },
+    "assets/antelope.jpg": {
+      "type": "image",
+      "path": "files/5a240eed1f02ad1d0869.jpg",
+      "width": 1280,
+      "height": 780,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/antelope.jpg"
+    },
+    "assets/architecture.jpg": {
+      "type": "image",
+      "path": "files/2be7e1a2739aa16968f6.jpg",
+      "width": 1920,
+      "height": 1439,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/architecture.jpg"
+    },
+    "assets/audience.jpg": {
+      "type": "image",
+      "path": "files/ba46bf80b52c87607c24.jpg",
+      "width": 1920,
+      "height": 884,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/audience.jpg"
+    },
+    "assets/beach.jpg": {
+      "type": "image",
+      "path": "files/ec9f2afdecd4a9d03415.jpg",
+      "width": 1280,
+      "height": 960,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/beach.jpg"
+    },
+    "assets/cake.jpg": {
+      "type": "image",
+      "path": "files/b37abb8131b66cb7c470.jpg",
+      "width": 1280,
+      "height": 720,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/cake.jpg"
+    },
+    "assets/cockpit.jpg": {
+      "type": "image",
+      "path": "files/8b50c1f36b7e623cbdfd.jpg",
+      "width": 1920,
+      "height": 1209,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/cockpit.jpg"
+    },
+    "assets/color-fan.jpg": {
+      "type": "image",
+      "path": "files/9dd0955af52ebf3e024d.jpg",
+      "width": 1920,
+      "height": 1280,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/color-fan.jpg"
+    },
+    "assets/duck.jpg": {
+      "type": "image",
+      "path": "files/ba2759ada7f4ed78d11a.jpg",
+      "width": 1280,
+      "height": 853,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/duck.jpg"
+    },
+    "assets/excavators.jpg": {
+      "type": "image",
+      "path": "files/354bb7373b0763babde1.jpg",
+      "width": 1280,
+      "height": 416,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/excavators.jpg"
+    },
+    "assets/firewood.jpg": {
+      "type": "image",
+      "path": "files/166b9c1b7b018db8f2fe.jpg",
+      "width": 1280,
+      "height": 853,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/firewood.jpg"
+    },
+    "assets/fox.jpg": {
+      "type": "image",
+      "path": "files/fcae74c7a81457d40cba.jpg",
+      "width": 1280,
+      "height": 851,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/fox.jpg"
+    },
+    "assets/frangipani.jpg": {
+      "type": "image",
+      "path": "files/febc819056363411dad6.jpg",
+      "width": 1280,
+      "height": 853,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/frangipani.jpg"
+    },
+    "assets/japan.jpg": {
+      "type": "image",
+      "path": "files/1d7cbd6ae210a0faf2b0.jpg",
+      "width": 1920,
+      "height": 1076,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/japan.jpg"
+    },
+    "assets/latte-art.jpg": {
+      "type": "image",
+      "path": "files/67e90fed2ba8c8024920.jpg",
+      "width": 1280,
+      "height": 853,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/latte-art.jpg"
+    },
+    "assets/living-room.jpg": {
+      "type": "image",
+      "path": "files/35aeaf9c4e3b80177947.jpg",
+      "width": 1920,
+      "height": 1280,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/living-room.jpg"
+    },
+    "assets/noodle-soup.jpg": {
+      "type": "image",
+      "path": "files/c5607e3b5f8b682d9326.jpg",
+      "width": 1280,
+      "height": 960,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/noodle-soup.jpg"
+    },
+    "assets/paraglider.jpg": {
+      "type": "image",
+      "path": "files/59ae0d82f67a71cc30cf.jpg",
+      "width": 1280,
+      "height": 855,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/paraglider.jpg"
+    },
+    "assets/skyscrapers.jpg": {
+      "type": "image",
+      "path": "files/59416e9fb088d5f71308.jpg",
+      "width": 1280,
+      "height": 853,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/skyscrapers.jpg"
+    },
+    "assets/supreme.jpg": {
+      "type": "image",
+      "path": "files/23e1478dc113ca83b66e.jpg",
+      "width": 1280,
+      "height": 852,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/supreme.jpg"
+    },
+    "assets/watch.jpg": {
+      "type": "image",
+      "path": "files/9283dc929e2a4d258243.jpg",
+      "width": 1920,
+      "height": 1280,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "assets/watch.jpg"
+    },
+    "assets/!.txt": {
+      "type": "text",
+      "path": "files/b6215c828abe217e8569.txt",
+      "virtualPath": "assets/!.txt"
+    },
+    "player_ban": {
+      "type": "image",
+      "path": "files/8c40c29fecb35645667f.png",
+      "width": 96,
+      "height": 96,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/player_ban.png"
+    },
+    "aez_bundle_main": {
+      "type": "script",
+      "global": true,
+      "path": "files/f086925699839f7a9594.js",
+      "virtualPath": "script/aez_bundle_main.js"
+    }
+  },
+  "moduleMainScripts": {
+    "@akashic-extension/akashic-label": "node_modules/@akashic-extension/akashic-label/lib/index.js",
+    "kamihubuki-js": "node_modules/kamihubuki-js/lib/index.js",
+    "@akashic-extension/akashic-hover-plugin": "node_modules/@akashic-extension/akashic-hover-plugin/lib/index.js",
+    "@akashic-extension/resolve-player-info": "node_modules/@akashic-extension/resolve-player-info/lib/index.js"
+  },
+  "environment": {
+    "sandbox-runtime": "3",
+    "niconico": {
+      "supportedModes": [
+        "multi_admission"
+      ]
+    },
+    "atsumaru": {
+      "supportedModes": [
+        "multi"
+      ]
+    },
+    "external": {
+      "coeLimited": "0",
+      "atsumaru": "0",
+      "send": "0"
+    },
+    "akashic-runtime": {
+      "version": "~3.3.4-0",
+      "flavor": "-canvas"
+    }
+  },
+  "globalScripts": [],
+  "exportZipInfo": {
+    "version": "1.8.3",
+    "option": {
+      "force": true,
+      "strip": true,
+      "minify": true,
+      "minifyJs": false,
+      "minifyJson": false,
+      "packImage": false,
+      "bundle": true,
+      "babel": true,
+      "targetService": "nicolive"
+    }
+  }
+}
